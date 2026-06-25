@@ -1,0 +1,145 @@
+#root {
+  width: 1920px;
+  height: 1080px;
+  background-color: rgba(13, 12, 34, 0.568);
+  color: whitesmoke;
+}
+
+#content {
+  display: grid;
+  justify-content: center;
+}
+
+#tt {
+  display: flex;
+  align-items: center;
+
+}
+
+#title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(26, 25, 51, 0.568);
+  height: 60px;
+  padding-left: 210px;
+  padding-right: 210px;
+  margin: 0;
+  border-bottom: 3px solid purple;
+}
+
+#saldo {
+  display: flex;
+  background-color: rgba(26, 25, 51, 0.568);
+  margin-top: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 5px slateblue;
+  border: none;
+}
+
+#notas {
+  padding: 0px;
+  margin: 0px;
+  gap: 0px;
+  margin-left: 10px;
+  display: grid;
+  text-align: start;
+  align-items: center;
+}
+
+#notas h4 {
+  padding: 0;
+  margin: 0;
+  font-size: 16px;
+  font-style: italic;
+}
+
+#notas h1 {
+  font-size: 30px;
+  padding: 0;
+  margin: 0;
+  color: purple;
+}
+
+#bla {
+  display: flex;
+  gap: 5px;
+  padding-left: 5px;
+}
+
+#login-btn {
+  background-color: rgba(26, 25, 51, 0.568);
+  width: 90px;
+  height: 40px;
+  border: 2px solid purple;
+  box-shadow: 0 0 5px purple;
+  border-radius: 6px;
+}
+
+#select-games {
+  display: flex;
+  flex-direction: row;
+  align-content: space-between;
+  height: 300px;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 40px;
+  margin-bottom: 100px;
+}
+
+.games {
+  background-color: rgba(26, 25, 51, 0.568);
+  border-radius: 10px;
+  width: 400px;
+  height: 400px;
+  margin: 10px;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  box-shadow: 0 0 5px slateblue;
+}
+
+.play-btn {
+  width: 220px;
+  height: 40px;
+  border-radius: 5px;
+  background-color: blueviolet;
+  border: none;
+  box-shadow: 0 0 10px rgb(154, 71, 233);
+}
+
+#stats {
+  background-color: rgba(26, 25, 51, 0.568);
+  border-radius: 10px;
+  margin-top: 20px;
+  border: 0.5px solid rgb(47, 44, 44);
+  box-shadow: 0 0 5px blueviolet;
+}
+
+.apostas {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 0.5px solid rgb(47, 44, 44);
+  margin-left: 7px;
+  margin-right: 7px;
+}
+
+.resp {
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+
+footer{
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  filter: saturate(2);
+}
